@@ -1,0 +1,324 @@
+body {
+	background: #333;
+	background-image: url("../image/backgroundpink2.jpg");
+    background-attachment: fixed;
+}
+
+#header {
+	margin-left:-8px;
+	margin-top: -8px;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	background: #121212;
+	background-image: url("../image/backgroundgelap2.jpg");
+	z-index: 3;
+}
+
+#header .logo {
+	margin-top: -6px;
+	margin-right:30px; 
+	background-image: url("../image/logo2.jpg");
+	height: 70px;
+	width: 70px;
+	float: left;
+}
+#header .logo a{
+	float:left;
+	color:#777;
+	font-weight:bolder;
+	font-size:25px;
+	position:relative;
+	margin-left:70px;
+	margin-top:14px;
+	padding:10px;
+	transition:0.9s;
+}
+#header .logo a:hover{
+	cursor:default;
+	color:#488fe6;
+}
+
+#header .links li {
+	display: inline;
+}
+#header .links li a{
+	text-align: center;
+	float: right;
+	font-size: 20px;
+	padding: 29px;
+	width: 6%;
+	color: #777;
+	font-weight: bolder;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+#header .links li a:hover {
+    color:#488fe6;
+}
+
+#konten {
+	position: relative;
+	padding-top: 120px;
+	width: 100%;
+	background: black;
+	background-image: url("../image/backgroundpink.jpeg");
+	z-index: 2;
+}
+#konten .profil{
+	height: 250px;
+	width: 200px;
+	float: right;
+	margin-left: 50px;
+	margin-right: 20px;
+	background-image: url(../image/Galeri/profile.jpg);
+}
+
+#konten .kukuh{
+	height: 300px;
+	width: 400px;
+	float: right;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-image: url(../image/kukuh.JPG);
+}
+
+
+
+
+
+#konten .biodata {
+	width: 92%;
+	background: ;
+	padding-bottom: 10px;
+}
+#konten .biodata b{
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	color: black;
+}
+
+#konten .biodata1{
+	height: ;
+	padding: 20px;
+	border: solid 2px #dbe648;
+	background: #333;
+}
+#konten .biodata1:hover{
+	font-size: 19px;
+	background: crimson;
+}
+#konten .biodata1 a{
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+/*===========================================*/
+
+#konten .kontak{
+	padding-bottom: 200px;
+	position: relative;
+}
+#konten .form-kontak {
+	position: relative;
+	background: ;
+	padding: 20px;
+	width: 60%;
+	color: black;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: -20px;
+}
+
+#konten .form-kontak b{
+	font-size: 30px;
+	color: cyan;
+	background: #121212;
+	padding: 10px;
+	padding-right: 150px;
+	padding-left: 150px;	
+	cursor: default;
+}
+
+
+/*==============================================================================================*/
+
+
+
+
+#konten .box{
+	padding-bottom: 20px;
+}
+#konten .galeri{
+	width: 80%;
+	font-weight: bolder;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #fff;
+}
+#konten .galeri b{
+	margin-left: 10px;
+	color: cyan;
+	background: #121212;
+	padding: 10px;
+	padding-right: 300px;
+	padding-left: 300px;
+	cursor: default;
+}
+
+#konten .history{
+	width: 100%;
+	font-weight: bolder;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #fff;
+
+}
+
+#konten .history b{
+	margin-left: 50%;
+	color: cyan;
+	background: #121212;
+	padding: 10px;
+	padding-right: 100px;
+	padding-left: 100px;
+	cursor: default;
+
+}
+
+
+
+/*========================================================*/
+
+#konten .gambar1{
+	border: solid 1px #888;
+	background: #555;
+	background-image: url(../image/Galeri/poto1.jpg);
+	width: 400x;
+	height: 550px;
+
+}
+#konten .gambar1:hover{
+	border: solid 1px #488fe6;
+	background-image: url(../image/Galeri/poto1.jpg);
+}
+
+/*========================================================*/
+
+#konten .gambar2{
+	border: solid 1px #888;
+	background: #555;
+	background-image: url(../image/Galeri/poto2.JPG);
+	width: 400px;
+	height: 550px;
+}
+#konten .gambar2:hover{
+	border: solid 1px #488fe6;
+	background-image: url(../image/Galeri/poto2.JPG);
+}
+
+/*========================================================*/
+
+#konten .gambar3{
+	border: solid 1px #888;
+	background: #555;
+	background-image: url(../image/Galeri/poto3.jpg);
+	width: 400px;
+	height: 550px;
+}
+#konten .gambar3:hover{
+	border: solid 1px #488fe6;
+	background-image: url(../image/Galeri/poto3.jpg);
+}
+
+/*========================================================*/
+
+#konten .gambar4{
+	border: solid 1px #888;
+	background: #555;
+	background-image: url(../image/Galeri/poto4.jpg);
+	width: 400px;
+	height: 550px;
+}
+#konten .gambar4:hover{
+	border: solid 1px #488fe6;
+	background-image: url(../image/Galeri/poto4.jpg);
+}
+
+/*========================================================*/
+
+#konten .gambar5{
+	border: solid 1px #888;
+	background: #555;
+	background-image: url(../image/Galeri/poto5.jpg);
+	width: 400px;
+	height: 550px;
+}
+#konten .gambar5:hover{
+	border: solid 1px #488fe6;
+	background-image: url(../image/Galeri/poto5.jpg);
+}
+
+/*========================================================*/
+
+#konten .gambar6{
+	border: solid 1px #888;
+	background: #555;
+	background-image: url(../image/Galeri/poto6.jpg);
+	width: 400px;
+	height: 550px;
+}
+#konten .gambar6:hover{
+	border: solid 1px #488fe6;
+	background-image: url(../image/Galeri/poto6.jpg);
+}
+
+/*========================================================*/
+
+#konten .gambar7{
+	border: solid 1px #888;
+	background: #555;
+	background-image: url(../image/Galeri/poto7.jpg);
+	width: 400px;
+	height: 550px;
+}
+#konten .gambar7:hover{
+	border: solid 1px #488fe6;
+	background-image: url(../image/Galeri/poto7.jpg);
+}
+
+/*========================================================*/
+
+#konten .gambar8{
+	border: solid 1px #888;
+	background: #555;
+	background-image: url(../image/Galeri/poto8.jpg);
+	width: 400px;
+	height: 550px;
+}
+#konten .gambar8:hover{
+	border: solid 1px #488fe6;
+	background-image: url(../image/Galeri/poto8.jpg);
+}
+
+/*========================================================*/
+
+
+
+
+#footer {
+	width: 100%;
+	padding-top: 20px;
+	background-image: url("../image/backgroundgelap2.jpg");
+	z-index: 1;
+}
+
+#footer .copyright {
+	font-size: 13px;
+	font-style: italic;
+	padding: 10px;
+	color: #999;
+}
